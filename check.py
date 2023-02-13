@@ -21,7 +21,7 @@ def is_pdf_full_blank(file_path):
     return text == ""
 
 if __name__ == "__main__":
-    file_path = "AIML.pdf"
+    file_path = "blank.pdf"
     if is_pdf_full_blank(file_path):
         print("The PDF file is full blank.")
     else:
